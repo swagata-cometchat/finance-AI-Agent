@@ -1,0 +1,39 @@
+{
+  "name": "kyc-compliance-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "kyc",
+    "aml",
+    "compliance",
+    "financial",
+    "verification",
+    "risk-assessment",
+    "workflow",
+    "mastra"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "A KYC/AML Compliance Workflow Agent with automated risk assessment, document verification, and regulatory compliance using Mastra.",
+  "type": "module",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.22",
+    "@mastra/core": "latest",
+    "@mastra/loggers": "latest",
+    "zod": "^3.25.67",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/uuid": "^9.0.7",
+    "mastra": "latest",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,1 @@
+import { mastra } from './mastra/index.js';
